@@ -8,53 +8,71 @@ I created 5 Jupyter notebooks with short theory and implementation of the most i
 .
 ├── .gitignore
 ├── README.md
-├── notebooks_clean
-│   ├── 1_3_Qubit_Bit_Flip_Code.ipynb
-│   ├── 2_3_Qubit_Phase_Flip_Code.ipynb
-│   ├── 3_Shor_9_Qubit_Code.ipynb
-│   ├── 4_Steane_7_1_3_Code.ipynb
-│   └── 5_Surface_Code.ipynb
-└── notebooks_executed
-    ├── 1_3_Qubit_Bit_Flip_Code.ipynb
-    ├── 2_3_Qubit_Phase_Flip_Code.ipynb
-    ├── 3_Shor_9_Qubit_Code.ipynb
-    ├── 4_Steane_7_1_3_Code.ipynb
-    └── 5_Surface_Code.ipynb
+├── 1_bit_flip_code
+│   ├── 01_clean.ipynb
+│   └── 02_executed.ipynb
+├── 2_phase_flip_code
+│   ├── 01_clean.ipynb
+│   └── 02_executed.ipynb
+├── 3_shor_code
+│   ├── 01_clean.ipynb
+│   └── 02_executed.ipynb
+├── 4_steane_code
+│   ├── 01_clean.ipynb
+│   └── 02_executed.ipynb
+└── 5_surface_code
+    ├── 01_clean.ipynb
+    └── 02_executed.ipynb
 ```
 
 ## Run in Google Colab
 
-### notebooks_clean (recommended)
+All notebooks can be opened directly in Google Colab.
 
-- 3-Qubit Bit Flip Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_clean/1_3_Qubit_Bit_Flip_Code.ipynb)
+### 1. Bit Flip Code
 
-- 3-Qubit Phase Flip Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_clean/2_3_Qubit_Phase_Flip_Code.ipynb)
+- Clean  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/1_bit_flip_code/01_clean.ipynb)
 
-- Shor 9-Qubit Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_clean/3_Shor_9_Qubit_Code.ipynb)
+- Executed  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/1_bit_flip_code/02_executed.ipynb)
 
-- Steane [7,1,3] Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_clean/4_Steane_7_1_3_Code.ipynb)
+---
 
-- Surface Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_clean/5_Surface_Code.ipynb)
+### 2. Phase Flip Code
 
+- Clean  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/2_phase_flip_code/01_clean.ipynb)
 
-### notebooks_executed (with outputs)
+- Executed  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/2_phase_flip_code/02_executed.ipynb)
 
-- 3-Qubit Bit Flip Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_executed/1_3_Qubit_Bit_Flip_Code.ipynb)
+---
 
-- 3-Qubit Phase Flip Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_executed/2_3_Qubit_Phase_Flip_Code.ipynb)
+### 3. Shor Code
 
-- Shor 9-Qubit Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_executed/3_Shor_9_Qubit_Code.ipynb)
+- Clean  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/3_shor_code/01_clean.ipynb)
 
-- Steane [7,1,3] Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_executed/4_Steane_7_1_3_Code.ipynb)
+- Executed  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/3_shor_code/02_executed.ipynb)
 
-- Surface Code  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/notebooks_executed/5_Surface_Code.ipynb)
+---
+
+### 4. Steane Code
+
+- Clean  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/4_steane_code/01_clean.ipynb)
+
+- Executed  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/4_steane_code/02_executed.ipynb)
+
+---
+
+### 5. Surface Code
+
+- Clean  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/5_surface_code/01_clean.ipynb)
+
+- Executed  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artem-ryzhov-1/quantum-error-correction/blob/main/5_surface_code/02_executed.ipynb)
